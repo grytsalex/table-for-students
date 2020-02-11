@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <link 
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container p-2">
+        <div class="jumbotron pb-1">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="First Name" class="form-control" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input type="text" id="last_name" placeholder="Last Name" class="form-control" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input type="number" id="age" placeholder="Age" class="form-control" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input type="text" id="city" placeholder="Home Town" class="form-control" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <button type="button" id="create" class="btn btn-primary">Create</button>
+            </div>
+        </div>
+        <div class="container" id="students"></div>    
+    </div>
+    <script src= "../src/indexClient.js" ></script>
+</body>
+</html>

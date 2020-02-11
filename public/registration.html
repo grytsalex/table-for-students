@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center pt-5">
+            <div clas="col-6">
+                <div class="form-group">
+                    <label for="login">Login :</label> 
+                     <input id="login" class="form-control" type="text">
+             </div>
+ 
+             <div class="form-group">
+                     <label for="password">Password :</label>
+                     <input id="password" class="form-control" type="password">
+             </div>
+ 
+             <div class="form-group">
+                    <label for="confirm">Confirm password :</label>
+                     <input id="confirm" class="form-control" type="password">
+             </div>
+ 
+             <div class="form-group">
+                    <label for="email">Email :</label>
+                     <input id="email" class="form-control" type="text">
+             </div>
+ 
+             <div class="form-group">
+                  <label for="phone">Phone number :</label>
+                 <div class="container pl-0 pr-0">
+                     <div class="row">
+                         <div class="col-4">
+                             <select id="phonePrefix" class="form-control">
+                                 <option>+380</option>
+                             </select>
+                         </div>
+                         <div class="col-8">
+                             <input id="phone" class="form-control" type="Phone">
+                         </div>
+                     </div>
+                 </div>
+             </div>
+ 
+             <div class="form-group pl-0">
+                     <button id="register" class="btn btn-dark">Registration</button>
+             </div>
+ 
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../src/registration.js"></script>
+</html>
