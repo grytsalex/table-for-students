@@ -2,7 +2,6 @@
 Download the program  - https: //nodejs.org/uk/
 Installation instructions for different systems https://nodejs.org/en/download/package-manager/
 
-
 ---------------------------------
 Install Database:
 on Windows - https://info-comp.ru/sisadminst/684-install-postgresql-11-on-windows.htmlhttps://info-comp.ru/sisadminst/684-install-postgresql-11-on-windows .html
@@ -12,8 +11,8 @@ during installation, click Next all the time
 typeof password
 
 Open pgAdmin File
-* create the base 'Anton' database
-* create table 'sangvinnik' with columns:
+* create database with 'your name'
+* create table 'students' with columns:
 
     1. id bigint primary key
     2. name char 15 NOT NULL
@@ -23,7 +22,6 @@ Open pgAdmin File
 ---------------------------
 
 Install git https://git-scm.com/
-Clone the git clone repository https: //anton228@bitbucket.org/anton228/dev-education-teamworkserver.git
 
 --------------
 Install the libraries used in the project:
@@ -34,9 +32,7 @@ then write the command> npm install --save-dev nodemon
 start the server with the command> nodemon index
 
 ----------------
-Open index.html file
-Enjoy your use!
-
+Open index.html file in browser
 
 
 
